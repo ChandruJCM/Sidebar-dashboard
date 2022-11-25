@@ -1,0 +1,67 @@
+
+.body{
+    margin:0;
+    width: 100%;
+    height:100vh;
+}
+.login{
+    margin-left: 139px; 
+    margin-top: 20px;
+}
+.header{
+    margin-top: 100px;
+}
+label{
+    margin-top: 8px;
+}
+input{
+    margin-top: 8px;
+}
+.button{
+    margin-left: 85px;
+    padding: 20px 15px ;
+    margin-top: 25px;
+    margin-right: 70px;
+    
+
+}
+
+/* .main{
+    margin-top: 100px;
+} */
+/* .main-sm{
+    margin-right: 50px;
+} */
+/* .main-lg, .main-md{
+    margin-left: 100px;
+} */
+@media screen and (max-width:750px){
+    label{
+        margin-top: 8px;
+    }
+    input{
+        margin-top: 8px;
+    }
+    .button{
+       align-self: center;
+       padding: 15px 30px;
+       margin: 0;
+       margin-top: 25px;
+       margin-left: 30px;
+    }
+    .login{
+        justify-content: center;
+        margin-right: 180px;
+    }
+    .main{
+        align-items: center;
+    }
+    html,body{
+        margin-top: 0;
+    margin-bottom: 0;
+    }
+    html,body{
+        overflow-y: hidden;  
+    }
+}
+
